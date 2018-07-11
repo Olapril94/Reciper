@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aMf-Zn-Bwf">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Playlist Script.otf">
+            <string>Playlist-Script</string>
+        </array>
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="I95-5q-VbR">
+            <objects>
+                <viewController id="JPq-Da-bB2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ecb-Pl-bUI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo-1526130963484-68fa9ba0717a" translatesAutoresizingMaskIntoConstraints="NO" id="sGM-vH-qZO">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" clipsSubviews="YES" alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VIo-VB-HNX">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="qCn-W9-D5o">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eaf-3S-RcX">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="9c1-jg-OWO">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </view>
+                                            <color key="tintColor" red="0.51764705882352946" green="0.55294117647058827" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <vibrancyEffect>
+                                                <blurEffect style="light"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <view clipsSubviews="YES" alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a2g-Jg-1ai">
+                                <rect key="frame" x="34" y="284.5" width="306" height="45"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="USERNAME" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5wZ-D4-NQb">
+                                        <rect key="frame" x="0.0" y="0.0" width="306" height="45"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" textContentType="username"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="5wZ-D4-NQb" firstAttribute="leading" secondItem="a2g-Jg-1ai" secondAttribute="leading" id="IfO-X0-JDE"/>
+                                    <constraint firstAttribute="trailing" secondItem="5wZ-D4-NQb" secondAttribute="trailing" id="TUO-CR-MSY"/>
+                                    <constraint firstAttribute="height" constant="45" id="b3t-lb-Cuz"/>
+                                    <constraint firstItem="5wZ-D4-NQb" firstAttribute="centerY" secondItem="a2g-Jg-1ai" secondAttribute="centerY" id="n2B-6L-eNW"/>
+                                </constraints>
+                            </view>
+                            <view clipsSubviews="YES" alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ovC-Tx-xPd">
+                                <rect key="frame" x="34" y="344.5" width="306" height="45"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="PASSWORD" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Anw-x5-68c">
+                                        <rect key="frame" x="0.0" y="0.0" width="306" height="38"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Anw-x5-68c" firstAttribute="centerY" secondItem="ovC-Tx-xPd" secondAttribute="centerY" constant="-3.5" id="4vj-A0-GEt"/>
+                                    <constraint firstAttribute="height" constant="45" id="bwu-YO-GES"/>
+                                    <constraint firstAttribute="trailing" secondItem="Anw-x5-68c" secondAttribute="trailing" id="dz8-rs-Fmu"/>
+                                    <constraint firstItem="Anw-x5-68c" firstAttribute="leading" secondItem="ovC-Tx-xPd" secondAttribute="leading" id="tAo-4S-cXA"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IZM-RM-2fJ">
+                                <rect key="frame" x="151" y="409" width="72" height="32"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="17"/>
+                                <state key="normal" title="E N T E R">
+                                    <color key="titleColor" red="0.32157099249999999" green="0.32156431670000002" blue="0.32156884670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R E C I P E S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QuM-IJ-thO">
+                                <rect key="frame" x="156" y="188" width="61" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="19" id="HyH-B9-44R"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="love on plate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yax-v6-YJk">
+                                <rect key="frame" x="110" y="215" width="154.5" height="49.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49.5" id="Uux-T4-LWM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Playlist-Script" family="Playlist" pointSize="33"/>
+                                <color key="textColor" red="0.32156862745098036" green="0.32156862745098036" blue="0.32156862745098036" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="a2g-Jg-1ai" firstAttribute="trailing" secondItem="ovC-Tx-xPd" secondAttribute="trailing" id="145-fo-DqD"/>
+                            <constraint firstItem="VIo-VB-HNX" firstAttribute="leading" secondItem="ecb-Pl-bUI" secondAttribute="leading" id="2R9-bJ-FBl"/>
+                            <constraint firstItem="ovC-Tx-xPd" firstAttribute="centerX" secondItem="a2g-Jg-1ai" secondAttribute="centerX" id="2bj-Hu-LvR"/>
+                            <constraint firstItem="yax-v6-YJk" firstAttribute="centerX" secondItem="a2g-Jg-1ai" secondAttribute="centerX" id="4ZP-O3-kSF"/>
+                            <constraint firstItem="ovC-Tx-xPd" firstAttribute="centerX" secondItem="VIo-VB-HNX" secondAttribute="centerX" id="6wi-nP-uGx"/>
+                            <constraint firstItem="a2g-Jg-1ai" firstAttribute="top" secondItem="yax-v6-YJk" secondAttribute="bottom" constant="20" id="AbU-cv-HSt"/>
+                            <constraint firstItem="QuM-IJ-thO" firstAttribute="top" secondItem="vhr-6m-An8" secondAttribute="top" constant="124" id="Az6-EU-XIp"/>
+                            <constraint firstItem="VIo-VB-HNX" firstAttribute="top" secondItem="vhr-6m-An8" secondAttribute="top" id="D7Y-uH-Zfp"/>
+                            <constraint firstItem="ovC-Tx-xPd" firstAttribute="centerX" secondItem="IZM-RM-2fJ" secondAttribute="centerX" id="DQy-JP-evb"/>
+                            <constraint firstAttribute="trailing" secondItem="VIo-VB-HNX" secondAttribute="trailing" id="LHH-dh-xVB"/>
+                            <constraint firstAttribute="trailing" secondItem="sGM-vH-qZO" secondAttribute="trailing" id="NdT-cW-Ycr"/>
+                            <constraint firstItem="yax-v6-YJk" firstAttribute="centerX" secondItem="QuM-IJ-thO" secondAttribute="centerX" id="QeX-KM-nls"/>
+                            <constraint firstItem="yax-v6-YJk" firstAttribute="top" secondItem="QuM-IJ-thO" secondAttribute="bottom" constant="8" id="ZUN-9g-HfM"/>
+                            <constraint firstItem="IZM-RM-2fJ" firstAttribute="top" secondItem="ovC-Tx-xPd" secondAttribute="bottom" constant="19.5" id="b7O-MR-Y1N"/>
+                            <constraint firstAttribute="bottom" secondItem="sGM-vH-qZO" secondAttribute="bottom" id="nas-Sl-4Ks"/>
+                            <constraint firstItem="ovC-Tx-xPd" firstAttribute="top" secondItem="a2g-Jg-1ai" secondAttribute="bottom" constant="15" id="oS9-jO-e6c"/>
+                            <constraint firstItem="VIo-VB-HNX" firstAttribute="top" secondItem="sGM-vH-qZO" secondAttribute="top" id="oaj-YY-p3Q"/>
+                            <constraint firstItem="a2g-Jg-1ai" firstAttribute="leading" secondItem="vhr-6m-An8" secondAttribute="leading" constant="34" id="pTg-bD-Rld"/>
+                            <constraint firstItem="a2g-Jg-1ai" firstAttribute="leading" secondItem="ovC-Tx-xPd" secondAttribute="leading" id="pam-4w-BSD"/>
+                            <constraint firstItem="VIo-VB-HNX" firstAttribute="leading" secondItem="sGM-vH-qZO" secondAttribute="leading" id="qOn-2p-wps"/>
+                            <constraint firstItem="VIo-VB-HNX" firstAttribute="bottom" secondItem="vhr-6m-An8" secondAttribute="bottom" id="sp0-Qx-KQI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vhr-6m-An8"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2r6-4o-2Da"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IS6-g4-sEu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1132" y="150.67466266866569"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uyl-oP-57D">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aMf-Zn-Bwf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pbe-Jw-W13">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="JPq-Da-bB2" kind="relationship" relationship="rootViewController" id="PNf-gv-Boi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gdP-Gb-AzL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="192.80000000000001" y="150.67466266866569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="photo-1526130963484-68fa9ba0717a" width="668" height="1002"/>
+    </resources>
+</document>
